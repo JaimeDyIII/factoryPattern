@@ -20,4 +20,9 @@ public class Cat implements Pet {
     public String play() {
         return "Catching/pursuing moving objects!";
     }
+
+    @Override
+    public String displayBasedOnPetKind(){
+        return "The cat's no. of life/lives is: ";
+    }
 }

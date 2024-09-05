@@ -19,4 +19,9 @@ public class Dog implements Pet {
     public String play() {
         return "Catching objects that you throw!";
     }
+
+    @Override
+    public String displayBasedOnPetKind() {
+        return "The dog's breed is: ";
+    }
 }
